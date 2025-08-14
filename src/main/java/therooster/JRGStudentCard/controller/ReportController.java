@@ -55,7 +55,7 @@ public class ReportController {
                     .body(pdfData);
 
         } catch (JRException e) {
-            throw new RuntimeException( "Error generated during the compilation report", e);
+            throw new RuntimeException( "Error generated  the compilation report", e);
         }
     }
 
